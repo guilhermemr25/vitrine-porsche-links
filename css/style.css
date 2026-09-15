@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: gainsboro;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    padding: 30px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+
+#introducao {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
+    background-color: silver;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+
+#introducao img {
+    width: 170px;
+    height: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: silver;
+    padding: 5px 7px;
+    border-radius: 20%;
+    font-weight: bold;
+}
+
+small {
+    color: crimson;
+    text-transform: uppercase;
+}
+
+footer {
+    padding: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+}
+
+#menu-final {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+#rodapé p {
+    margin-top: 10px;
+}
