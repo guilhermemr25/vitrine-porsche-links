@@ -9,6 +9,14 @@ body {
     background-color: gainsboro;
 }
 
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 header {
     background-color: black;
     color: white;
@@ -46,17 +54,10 @@ header {
 a {
     text-decoration: none;
     color: white;
-    border: 2px solid #c7241e;
+    border: 1px solid #c7241e;
     padding: 5px;
     border-radius: 5px;
     font-weight: bold;
-}
-
-#botoes-introducao {
-    display: flex;
-    gap: 16px;
-    margin-top: 20px;
-    border-radius: 0px;
 }
 
 #img-introducao {
@@ -73,6 +74,13 @@ a {
     margin-bottom: 10px;
 }
 
+#botoes-introducao {
+    display: flex;
+    gap: 16px;
+    margin-top: 20px;
+    border-radius: 0px;
+}
+
 #botao-carros {
     border: none;
     background-color: #c7241e;
@@ -85,9 +93,16 @@ a {
 
 #destaques {
     padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
 #por-que-sao-especiais {
     margin-bottom: 20px;
+}
+
+#por-que-sao-especiais small {
+    color: #dc9d33;
 }
 
 #cards {
@@ -109,6 +124,22 @@ a {
 
 .card h4 {
     font-size: 18px;
+    margin-bottom: 5px;
+}
+
+#destaques2 {
+    background-color: silver;
+    padding: 30px;
+    text-align: center;
+}
+
+#destaques2 a {
+    border: none;
+    background-color: #c7241e;
+}
+
+#destaques2 h3 {
+    margin-top: 5px;
     margin-bottom: 5px;
 }
 
@@ -136,8 +167,4 @@ footer p {
     align-items: center;
     flex-wrap: nowrap;
     gap: 16px;
-}
-
-#rodapé p {
-    margin-top: 10px;
 }
