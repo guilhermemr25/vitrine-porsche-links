@@ -51,6 +51,14 @@ header {
     height: 200px;
 }
 
+#mais-caros {
+    color: #c7241e;
+}
+
+#numero {
+    font-family: initial;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -64,9 +72,16 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     flex-wrap: nowrap;
     gap: 0;
+}
+
+#img-introducao p {
+    color: white;
+    background-color: #c7241e;
+    padding: 5px;
+    font-weight: bold;
 }
 
 #introducao h2 {
@@ -124,6 +139,11 @@ a {
 
 .card h4 {
     font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.emoji {
+    font-size: 30px;
     margin-bottom: 5px;
 }
 
