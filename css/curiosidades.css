@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: gainsboro;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+
+
+#introducao {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
+    background-color: silver;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#introducao h2 {
+    margin-bottom: 5px;
+    font-size: 28px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid #c7241e;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+small {
+    color: #c7241e;
+    text-transform: uppercase;
+}
+
+#curiosidades {
+    margin-top: 20px;
+    align-items: center;
+}
+
+#cards {
+    background-color: silver;
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+}
+
+#voce-sabia span {
+    color: #c7241e;
+    font-size: 28px;
+}
+
+#voce-sabia h2 {
+    margin-bottom: 5px;
+}
+
+#voce-sabia h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.card {
+    background-color: white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+#cardprincipal p {
+    text-align: center;
+}
+
+#cardprincipal img {
+    height: 380px;
+    width: 350px;
+    align-items: center;
+}
+
+footer {
+    padding: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+}
+
+#menu-final {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
