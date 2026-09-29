@@ -9,6 +9,21 @@ body {
     background-color: gainsboro;
 }
 
+#introducao {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
+    background-color: silver;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#introducao h2 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
